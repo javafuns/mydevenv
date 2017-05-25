@@ -422,7 +422,7 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="616161" />
+        <option name="BACKGROUND" value="55615b" />
         <option name="ERROR_STRIPE_COLOR" value="616161" />
       </value>
     </option>
@@ -434,7 +434,7 @@
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="aeae80" />
-        <option name="ERROR_STRIPE_COLOR" value="503205" />
+        <option name="ERROR_STRIPE_COLOR" value="774477" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -514,7 +514,7 @@
     </option>
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="8712a0" />
+        <option name="FOREGROUND" value="895576" />
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
@@ -561,13 +561,13 @@
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="52503a" />
-        <option name="ERROR_STRIPE_COLOR" value="503205" />
+        <option name="ERROR_STRIPE_COLOR" value="774477" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="948567" />
+        <option name="BACKGROUND" value="377b45" />
         <option name="ERROR_STRIPE_COLOR" value="948567" />
       </value>
     </option>
