@@ -285,7 +285,7 @@ let g:airline#extensions#tabline#enabled = 1
 "let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 
 " By default, airline will use unicode symbols if your encoding matches utf-8.
-" If you want the powerline symbols set this variable:
+" If you want the powerline symbols set this variable: (require powerline fonts installed)
 let g:airline_powerline_fonts = 1
 
 " If you want to use plain ascii symbols, set this variable:
