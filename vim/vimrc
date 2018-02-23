@@ -78,7 +78,7 @@ set wildmenu
 set wildignore=*.o,*~,*.pyc,*.class
 
 " Height of the command bar
-set cmdheight=1
+" set cmdheight=1
 
 " A buffer becomes hidden when it is abandoned
 set hid
@@ -274,7 +274,34 @@ endfunction
 " | Newly Added by Gavin.Zhang
 " -------------------------------
 
-" vim-plug section. https://github.com/junegunn/vim-plug
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => settings for plugins
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:airline_theme='wombat'
+
+" display buffers on top
+let g:airline#extensions#tabline#enabled = 1
+
+"let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
+
+" By default, airline will use unicode symbols if your encoding matches utf-8.
+" If you want the powerline symbols set this variable:
+let g:airline_powerline_fonts = 1
+
+" If you want to use plain ascii symbols, set this variable:
+"let g:airline_symbols_ascii = 1
+
+" 
+"let g:airline#extensions#branch#enabled = 1
+let g:airline#extensions#hunks#enabled = 1
+let g:airline#extensions#hunks#non_zero_only = 1
+let g:airline#extensions#branch#enabled = 1
+let g:airline#extensions#branch#empty_message = '····'
+let g:airline#extensions#branch#displayed_head_limit = 10
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vim-plug section. https://github.com/junegunn/vim-plug
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 call plug#begin('~/.vim/plugged')
 
 Plug 'flazz/vim-colorschemes' " to change colorscheme, eg, colorscheme wombat
@@ -293,12 +320,14 @@ Plug 'ctrlpvim/ctrlp.vim' " file, buffer, tag etc finder, shortcut key: ctrl + p
 
 Plug 'scrooloose/nerdtree' " shortcut key: :NERDTree
 Plug 'jistr/vim-nerdtree-tabs' " not working
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 "Plug 'itchyny/lightline.vim' " similar to vim-airline
 Plug 'majutsushi/tagbar' " shortcut key: :TagbarToggle, outline viewer
 
 Plug 'airblade/vim-gitgutter' " shortcut key: GitGutterToggle, shows a git diff in the 'gutter'.
 Plug 'xuyuanp/nerdtree-git-plugin'
+Plug 'tpope/vim-fugitive'
 
 Plug 'fatih/vim-go' " shortcut key: :GoBuild, :GoRun
 Plug 'nsf/gocode' " An autocompletion daemon for the Go programming language.
