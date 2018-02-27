@@ -277,7 +277,7 @@ endfunction
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => settings for plugins
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:airline_theme='wombat'
+let g:airline_theme='xtermlight'
 
 " display buffers on top
 let g:airline#extensions#tabline#enabled = 1
