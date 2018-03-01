@@ -315,7 +315,7 @@ Plug 'easymotion/vim-easymotion' " quick search in file, shortcut key: ,,w or ,,
 Plug 'valloric/youcompleteme'
 "Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
-Plug 'godlygeek/tabular' " text aligning with 'tab', shortcut key: :Tab/:, :Tab/=, :Tab/|
+Plug 'godlygeek/tabular' " text aligning with 'tab', shortcut key: :TableFormat
 Plug 'ctrlpvim/ctrlp.vim' " file, buffer, tag etc finder, shortcut key: ctrl + p
 
 Plug 'scrooloose/nerdtree' " shortcut key: :NERDTree
