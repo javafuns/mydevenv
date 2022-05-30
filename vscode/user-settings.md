@@ -1,1 +1,0 @@
-"workbench.editor.enablePreview": false
