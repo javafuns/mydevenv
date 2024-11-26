@@ -6,4 +6,6 @@ https://github.com/junegunn/vim-plug
 
 https://github.com/powerline/fonts
 
-# Choose powerline font for os system
+# Choose powerline font
+
+Open vim's preferences, in your vim profile, select 'Custom font' and choose a powerline font (Noto Mono for Powerline'.
