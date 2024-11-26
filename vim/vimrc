@@ -316,7 +316,6 @@ Plug 'nanotech/jellybeans.vim'
 Plug 'scrooloose/syntastic' " Syntax checking
 
 Plug 'easymotion/vim-easymotion' " quick search in file, shortcut key: ,,w or ,,b
-Plug 'valloric/youcompleteme'
 "Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
 Plug 'godlygeek/tabular' " text aligning with 'tab', shortcut key: :TableFormat
